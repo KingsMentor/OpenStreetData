@@ -1,0 +1,484 @@
+{
+  "variables": [],
+  "info": {
+    "name": "post-api-by-postal-code",
+    "_postman_id": "e47d1115-3fd9-4e20-8e22-5f34e3adcea9",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "http://postalstreetdata.appspot.com/api/postcode",
+      "request": {
+        "url": "http://postalstreetdata.appspot.com/api/postcode",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "postcode",
+              "value": "100264",
+              "type": "text",
+              "enabled": true
+            }
+          ]
+        },
+        "description": "fetching details by post code"
+      },
+      "response": []
+    },
+    {
+      "name": "http://postalstreetdata.appspot.com/api/postcode",
+      "request": {
+        "url": "http://postalstreetdata.appspot.com/api/postcode",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "postcode",
+              "value": "100264",
+              "type": "text",
+              "enabled": true
+            }
+          ]
+        },
+        "description": "fetching details by post code"
+      },
+      "response": [
+        {
+          "rows": [
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": "Duduyemi St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Rafatu Oyekola St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": "Fatoba St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Atoba St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Mamoru Adeyemi St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": "Godwin Ediale St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Omolara Ojo St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Akinbowale Cr St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": "Solafe Ige St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": "Abiodun Akinsanya Ln St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Bankole Oresanya Ln St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": "Orange St St."
+                },
+                {
+                  "v": "Bungalow Estate"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Membu Ave St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": "Mufutau Lanihun St St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Ezenina Ln St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            }
+          ],
+          "schema": {
+            "fields": [
+              {
+                "type": "STRING",
+                "name": "postalCode",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "FLOAT",
+                "name": "latitude",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "FLOAT",
+                "name": "longitude",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "streetName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "areaName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "townName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "stateName",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

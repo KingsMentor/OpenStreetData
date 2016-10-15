@@ -1,0 +1,124 @@
+{
+  "variables": [],
+  "info": {
+    "name": "postal-api",
+    "_postman_id": "bc188ecd-0c96-0bb9-181f-a6dbdbecf92c",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "http://postalstreetdata.appspot.com/api/address",
+      "request": {
+        "url": "http://postalstreetdata.appspot.com/api/address",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "state",
+              "value": "lagos",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "street",
+              "value": "victory",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "area",
+              "value": "Ejigbo",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "town",
+              "value": "lagos",
+              "type": "text",
+              "enabled": true
+            }
+          ]
+        },
+        "description": "provides address suggestions given partial information"
+      },
+      "response": [
+        {
+          "rows": [
+            {
+              "f": [
+                {
+                  "v": " 100264"
+                },
+                {
+                  "v": "6.5243793"
+                },
+                {
+                  "v": "3.3792057"
+                },
+                {
+                  "v": " Victory Ln St."
+                },
+                {
+                  "v": "Ejigbo Orinle Owo"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                }
+              ]
+            }
+          ],
+          "schema": {
+            "fields": [
+              {
+                "type": "STRING",
+                "name": "postalCode",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "FLOAT",
+                "name": "latitude",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "FLOAT",
+                "name": "longitude",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "streetName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "areaName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "townName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "stateName",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

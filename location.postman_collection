@@ -1,0 +1,238 @@
+{
+  "variables": [],
+  "info": {
+    "name": "postal-location",
+    "_postman_id": "dbeceab2-e8a0-cf7f-5191-0163a0362b5a",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "http://postalstreetdata.appspot.com/api/location",
+      "request": {
+        "url": "http://postalstreetdata.appspot.com/api/location",
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "description": ""
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "lat",
+              "value": "6.4345",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "lng",
+              "value": "3.456",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "radius",
+              "value": "1",
+              "type": "text",
+              "enabled": true
+            }
+          ]
+        },
+        "description": "Fetching details within a location"
+      },
+      "response": [
+        {
+          "rows": [
+            {
+              "f": [
+                {
+                  "v": " 101233"
+                },
+                {
+                  "v": "6.4416879"
+                },
+                {
+                  "v": "3.4445095"
+                },
+                {
+                  "v": "Ilabere Avenue St."
+                },
+                {
+                  "v": "Ikoyi"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "0.9322733032890796"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 101233"
+                },
+                {
+                  "v": "6.4417826"
+                },
+                {
+                  "v": "3.4498244"
+                },
+                {
+                  "v": "Imoru Close St."
+                },
+                {
+                  "v": "Ikoyi"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "0.6580426036321502"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 101233"
+                },
+                {
+                  "v": "6.4430166"
+                },
+                {
+                  "v": "3.4466108"
+                },
+                {
+                  "v": "Adeyemi Lawson St."
+                },
+                {
+                  "v": "Ikoyi"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "0.8728776068805834"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 101233"
+                },
+                {
+                  "v": "6.4408362"
+                },
+                {
+                  "v": "3.4473926"
+                },
+                {
+                  "v": "Iru Close St."
+                },
+                {
+                  "v": "Ikoyi"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "0.7355027653291429"
+                }
+              ]
+            },
+            {
+              "f": [
+                {
+                  "v": " 101233"
+                },
+                {
+                  "v": "6.4405551"
+                },
+                {
+                  "v": "3.4440586"
+                },
+                {
+                  "v": "Inupa Drive St."
+                },
+                {
+                  "v": "Ikoyi"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "Lagos"
+                },
+                {
+                  "v": "0.9204999263916146"
+                }
+              ]
+            }
+          ],
+          "schema": {
+            "fields": [
+              {
+                "type": "STRING",
+                "name": "postalCode",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "FLOAT",
+                "name": "latitude",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "FLOAT",
+                "name": "longitude",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "streetName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "areaName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "townName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "STRING",
+                "name": "stateName",
+                "mode": "NULLABLE"
+              },
+              {
+                "type": "FLOAT",
+                "name": "distance",
+                "mode": "NULLABLE"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
