@@ -4,7 +4,7 @@ See demo [here](http://postalstreetdata.appspot.com)
 
 This page is mainly for opening issues and enhancing the solution.
 
-#### Using the Service.
+## Using the Service.
 
 `Base Url` - `http://postalstreetdata.appspot.com/api`
 
